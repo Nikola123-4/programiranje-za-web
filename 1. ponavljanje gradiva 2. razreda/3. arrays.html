@@ -9,16 +9,19 @@
 
 <body>
     <script>
-        const evenNumbers = [2, 4, 6, 8, 10, 12]
+        console.log(`Broj na 4. mjestu u polju je: ${fourthEvenNumber}`)
+        console.log(`Broj na 4. mjestu u polju je: ${evenNumbers[3]}`)
+
         const cities = ["Osijek", "Zagreb", "Split", "Opuzen"]
+        const evenNumbers = [0, 2, 4, 6, 8, 10]
         const cars = [{ brand: "audi", name: "a4" }, { brand: "Opel", name: "Corsa" }]
         //pravilno je stavke polja dodavati i ovako
         const cars1 = [
-            { brand: "audi", name: "a4" }, 
+            { brand: "audi", name: "a4" },
             { brand: "Opel", name: "Corsa" }
         ]
+
         // sa sintaksom 
-        const cityInFirstPlaceInArray = cities[0]
         console.log(`Grad na prvom mjestu u polju je: ${cityInFirstPlaceInArray}`)
         const fourthEvenNumber = evenNumbers[3]
         console.log(`Broj na 4. mjestu u polju je: ${fourthEvenNumber}`)
@@ -27,7 +30,6 @@
         console.log(`Broj na 4. mjestu u polju je: ${evenNumbers[3]}`)
         evenNumbers.push(14)
         console.log(`Grad na 5. mjestu je: ${cities[4]}`)
-        
     </script>
 </body>
 

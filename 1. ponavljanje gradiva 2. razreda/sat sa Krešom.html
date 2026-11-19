@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<body>
+
+    <input type="number" id="broj" placeholder="Unesite broj">
+    <button onclick="tablicaMnoženja()">zbroji</button>
+    <p id="rezultat"></p>
+
+
+    <script>
+        //ovo je sat sa kresom poglavlje 1 izubljen internet nastavice se..
+        //epizoda dva kreso ide do svoga kompjutera nastavljaju se muke u part 3
+        //kreso je spojio plocu na PC
+        //trebamo napravit... 
+
+        function tablicaMnoženja() {
+            let broj = Number(document.getElementById("broj").value)
+            let text = "";
+
+            if (broj <= 0) {
+                document.getElementById("rezultat").textContent = "Unesite pozitivan broj";
+            }
+            else {
+                for (i = 1; i <= 10; i++) {
+                    tekst = i + "*" + "broj" + "=" + (i * broj);
+                }
+            }
+            document.getElementById("rezultat").innerHTML = tekst;
+        }
+    </script>
+
+</body>
+
+</html>
